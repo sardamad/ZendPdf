@@ -4,14 +4,13 @@ Master: [![Build Status](https://secure.travis-ci.org/zendframework/ZendPdf.png?
 
 > ## ABANDONED
 >
-> This package is no longer maintained. We recommend [TCPDF](https://tcpdf.org/) as a replacement.
+> The original zendframework package is no longer maintained. They recommend [TCPDF](https://tcpdf.org/) as a replacement.
+
+> This is a fork which uses laminas stdlib and laminas-memory
 
 ## Installation
 Run the command:
 
 ```bash
-composer require "zendframework/zendpdf": "2.0.*@dev"
+composer require "sardamad/zendpdf"
 ```
-
-At that point, follow the instructions in the documentation folder for actual
-usage of the component. (Documentation is forthcoming.)
