@@ -9,8 +9,19 @@ Master: [![Build Status](https://secure.travis-ci.org/zendframework/ZendPdf.png?
 > This is a fork which uses laminas stdlib and laminas-memory
 
 ## Installation
+include the following in your composer.json:
+
+```bash
+ "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sardamad/ZendPdf"
+        }
+    ]
+```
+
 Run the command:
 
 ```bash
-composer require "sardamad/zendpdf"
+composer require "zendframework/zendpdf:3.0.0"
 ```
